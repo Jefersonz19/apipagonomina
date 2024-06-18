@@ -16,6 +16,7 @@ import apipagonomina.apipagonomina.entidades.Festivo;
 import apipagonomina.apipagonomina.entidades.dtos.FestivoDto;
 import apipagonomina.apipagonomina.repositorios.FechaRepositorio;;
 
+@Service
 public class FechaServicio implements IFechaServicio {
     
     @Autowired
